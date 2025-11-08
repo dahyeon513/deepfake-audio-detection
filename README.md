@@ -11,9 +11,7 @@ Mel-spectrogram 기반 CNN 모델을 사용하여 오디오 데이터를 시각�
 |------|------|
 | 🎧 Mel-spectrogram 기반 Feature 추출 | librosa를 사용해 음성을 Mel-spectrogram으로 변환 |
 | 🧠 CNN Classification | Mel 이미지를 입력으로 Fake/Real 분류 |
-| 🚀 End-to-End 학습 Notebook 제공 | `notebooks/train.ipynb` 에서 바로 학습 가능 |
 | 🔍 모델 추론 스크립트 제공 | `src/inference.py` 로 새로운 음성 파일 추론 가능 |
-| ✅ GPU 사용 가능 | TensorFlow / CUDA 지원 |
 
 ---
 
